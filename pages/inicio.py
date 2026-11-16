@@ -30,4 +30,12 @@ st.write(f"equipo **{EQUIPO}**: diego alejandro usuga rojas, jesus david plazas 
 # TODO: foto de los integrantes (assets/) y objetivos del proyecto.
 
 st.header("📝 Créditos y licencias")
-st.caption("TODO: fuentes de datos, recursos graficos y licencia del software.")
+st.markdown(
+    "**Licencia:** [CC BY-NC-SA 4.0]"
+    "(https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es) · © 2026 Equipo Balón de Oro"
+)
+st.caption(
+    "Datos: losmundialesdefutbol.com, futboltotal.futbol (API-Sports) y Wikipedia."
+    "Los datos conservan los términos de sus fuentes. Logo y recursos gráficos: equipo Balón de Oro."
+)
+st.image("https://licensebuttons.net/l/by-nc-sa/4.0/88x31.png")
