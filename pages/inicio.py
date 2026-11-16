@@ -21,9 +21,9 @@ col3.page_link("pages/mis_datos.py", label="ver mis datos", icon="👤")
 
 st.header("🔢 Indicadores")
 m1, m2, m3 = st.columns(3)
-m1.metric("jugadores", len(df))
-m2.metric("goles en el mundial", int(df["goles_mundial"].sum()))
-m3.metric("selecciones", df["seleccion"].nunique())
+m1.metric("Jugadores", len(df))
+m2.metric("Goles en el mundial", int(df["goles"].sum()))
+m3.metric("Edad promedio", round(df["edad"].mean(), 1))
 
 st.header("👥 Acerca de")
 st.write(f"equipo **{EQUIPO}**: diego alejandro usuga rojas, jesus david plazas rojas y solanye andrea suarez quiceno.")
