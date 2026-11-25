@@ -1,7 +1,7 @@
 "pagina de inicio: presentacion, datos, funcionalidades e indicadores."
 import streamlit as st
-from scr.data import obtener_datos
-from scr.estilos import EQUIPO, NOMBRE_APP
+from src.data import obtener_datos
+from src.estilos import EQUIPO, NOMBRE_APP
 
 df = obtener_datos()
 st.title(f"⚽ {NOMBRE_APP}")

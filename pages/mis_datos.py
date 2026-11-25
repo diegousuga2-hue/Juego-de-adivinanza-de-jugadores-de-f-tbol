@@ -6,7 +6,7 @@ import plotly.express as px
 from src.data import cargar_datos
 from src.estilos import PALETA
 from src.fichas import unir_fichas
-from src.juego import PUNTOS_ACIERTOS
+from src.juego import PUNTOS_ACIERTO
 
 st.title("👤 Mis datos")
 st.caption("Resumen de lo que has hecho en esta sesión. Se actualiza solo mientras juegas y exploras.")
@@ -50,7 +50,7 @@ else:
         fig = px.line(hist, x="partida", y="puntos", markers=True,
                       color_discrete_sequence=PALETA["cesped"])
         fig.update_layout(title="puntaje por partida", xaxis_title="Partida", yaxis_title="Puntos",
-                          yaxis_range=[0, hist["rondas"].max() * PUNTOS_ACIERTOS],
+                          yaxis_range=[0, hist["rondas"].max() * PUNTOS_ACIERTO],
                           xaxis=dict(dtick=1), heigth=350)
         st.plotly_chart(fig)
     with g2:

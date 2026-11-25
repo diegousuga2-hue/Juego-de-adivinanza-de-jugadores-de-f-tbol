@@ -4,12 +4,12 @@ import time
 
 RONDAS = 10
 OPCIONES = 4
-PUNTOS_ACIERTOS = 10
+PUNTOS_ACIERTO = 10
 COSTO_PISTA = 3
 PISTAS = [("seleccion", "Seleccion"), ("club", "Club")]
 MAX_PISTAS = len(PISTAS)
 
-def calificaciones(aciertos: int, rondas: int) -> str:
+def calificacion(aciertos: int, rondas: int) -> str:
     """Devuelve un mensaje según el porcentaje de aciertos."""
     porcentaje = aciertos / rondas * 100 if rondas else 0
     if porcentaje >= 90:
@@ -29,7 +29,7 @@ class Partida:
         self.ronda = 0
         self.puntos = 0
         self.aciertos = 0
-        self.pista_total = 0
+        self.pistas_total = 0
         self.inicio = time.time()
         self.segundos = None
         self.resultados = []
@@ -75,7 +75,7 @@ class Partida:
         if self.respondida or self.pistas >= MAX_PISTAS:
             return False
         self.pistas += 1
-        self.pista_total += 1
+        self.pistas_total += 1
         return True
 
     def pistas_reveladas(self) -> list:
@@ -84,7 +84,7 @@ class Partida:
 
     def puntos_posibles(self) -> int:
         """Puntos que se ganarían si se acierta ahora."""
-        return max(PUNTOS_ACIERTOS - COSTO_PISTA * self.pistas, 0)
+        return max(PUNTOS_ACIERTO - COSTO_PISTA * self.pistas, 0)
 
     def responder(self, eleccion: str):
         """Califica la respuesta, suma los puntos y guarda el resultado de la ronda."""
@@ -120,6 +120,6 @@ class Partida:
             "puntos": self.puntos,
             "aciertos": self.aciertos,
             "rondas": self.total_rondas,
-            "pistas": self.pista_total,
+            "pistas": self.pistas_total,
             "segundos": self.segundos    
         }
