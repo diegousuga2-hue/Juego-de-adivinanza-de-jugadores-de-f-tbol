@@ -21,7 +21,7 @@ EJES_RADAR = [
     ("goles", "Goles"),
     ("asistencias", "Asistencias"),
     ("partidos", "Partidos"),
-    ("goles_por_partidos", "Goles por partido"),
+    ("goles_por_partido", "Goles por partido"),
     ("faltas", "Faltas"),
 ]
 
@@ -91,7 +91,7 @@ def figura_radar(perfiles: dict, df_total: pd.DataFrame, referencia: pd.Series =
         ))
     fig.update_layout(
         polar=dict(radialaxis=dict(range=[0, 100], showticklabels=False)),
-        legend=dict(orientacion="h", yanchor="bottom", y=-0.2),
+        legend=dict(orientation="h", yanchor="bottom", y=-0.2),
         margin=dict(t=30, b=30, l=40, r=40),
         height=450,
     )
@@ -107,7 +107,7 @@ def figura_participaciones(df: pd.DataFrame, cantidad: int = 10) -> go.Figure:
     fig.add_trace(go.Bar(y=nombres, x=datos["asistencias"].fillna(0), name="Asistencias",
                          orientation="h", marker_color=PALETA["oro"]))
     fig.update_layout(barmode="stack", xaxis_title="Goles + asistencias", yaxis_title="",
-                      legend=dict(orientacion="h", yanchor="bottom", y=1.02),
+                      legend=dict(orientation="h", yanchor="bottom", y=1.02),
                       height=max(320, 34 * len(datos) + 120))
     return fig
 
@@ -125,7 +125,7 @@ def figura_dispersion(df: pd.DataFrame) -> go.Figure:
 
 def figura_distribucion_goles(df: pd.DataFrame) -> go.Figure:
     """Cuántos jugadores hay con cada cantidad de goles, separados por posición."""
-    fig = px.histogram(df, x="goles", color="posicion", color_discrete_map="COLOR_POSICION",
+    fig = px.histogram(df, x="goles", color="posicion", color_discrete_map=COLOR_POSICION,
                        text_auto=True)
     fig.update_layout(xaxis_title="Goles en el mundial", yaxis_title="Numero de jugadores",
                       legend_title="Posicion", bargap=0.15, xaxis=dict(dtick=1), height=420)
