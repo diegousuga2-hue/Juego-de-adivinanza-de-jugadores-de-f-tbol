@@ -1,0 +1,51 @@
+jugador,seleccion,club,puesto,edad,posicion,goles,partidos,asistencias,faltas,amarillas,rojas,goles_seleccion,foto,escudo
+Kylian Mbappé,Francia,Real Madrid,1,27,Delantero,10,8,4,6,1,0,66,assets/jugadores/kylian_mbappe.jpg,assets/clubes/kylian_mbappe.png
+Lionel Messi,Argentina,Inter Miami CF,2,39,Delantero,8,8,4,3,0,0,125,assets/jugadores/lionel_messi.jpg,assets/clubes/lionel_messi.png
+Jude Bellingham,Inglaterra,Real Madrid,3,23,Mediocampista,7,8,1,9,1,0,13,assets/jugadores/jude_bellingham.jpg,assets/clubes/jude_bellingham.png
+Erling Haaland,Noruega,Manchester City,3,26,Delantero,7,5,0,5,0,0,62,assets/jugadores/erling_haaland.jpg,assets/clubes/erling_haaland.png
+Ousmane Dembélé,Francia,Paris Saint-Germain,5,29,Delantero,6,8,2,0,0,0,13,assets/jugadores/ousmane_dembele.jpg,assets/clubes/ousmane_dembele.png
+Harry Kane,Inglaterra,Bayern Múnich,5,33,Delantero,6,7,1,8,0,0,85,assets/jugadores/harry_kane.jpg,assets/clubes/harry_kane.png
+Mikel Oyarzabal,España,Real Sociedad,7,29,Delantero,5,8,1,4,0,0,30,assets/jugadores/mikel_oyarzabal.jpg,assets/clubes/mikel_oyarzabal.png
+Julián Quiñones,México,Al-Qadsiah,8,29,Delantero,4,5,1,5,0,0,6,assets/jugadores/julian_quinones.jpg,assets/clubes/julian_quinones.png
+Ismaïla Sarr,Senegal,Crystal Palace,8,28,Delantero,4,4,1,1,0,0,23,assets/jugadores/ismaila_sarr.jpg,assets/clubes/ismaila_sarr.png
+Vinícius Júnior,Brasil,Real Madrid,8,26,Delantero,4,5,1,4,0,0,13,assets/jugadores/vinicius_junior.jpg,assets/clubes/vinicius_junior.png
+Folarin Balogun,Estados Unidos,AS Mónaco,11,25,Delantero,3,4,0,3,1,1,12,assets/jugadores/folarin_balogun.jpg,assets/clubes/folarin_balogun.png
+Bradley Barcola,Francia,Liverpool,11,24,Delantero,3,8,1,5,1,0,6,assets/jugadores/bradley_barcola.jpg,assets/clubes/bradley_barcola.png
+Brian Brobbey,Países Bajos,Sunderland,11,24,Delantero,3,4,0,4,0,0,4,assets/jugadores/brian_brobbey.jpg,assets/clubes/brian_brobbey.png
+Matheus Cunha,Brasil,Manchester United,11,27,Delantero,3,5,0,1,0,0,4,assets/jugadores/matheus_cunha.jpg,assets/clubes/matheus_cunha.png
+Jonathan David,Canadá,Juventus,11,26,Delantero,3,5,0,5,1,0,42,assets/jugadores/jonathan_david.jpg,assets/clubes/jonathan_david.png
+Charles De Ketelaere,Bélgica,Atalanta,11,25,Delantero,3,5,1,2,0,0,9,assets/jugadores/charles_de_ketelaere.jpg,assets/clubes/charles_de_ketelaere.png
+Cody Gakpo,Países Bajos,Liverpool,11,27,Delantero,3,4,1,3,0,0,24,assets/jugadores/cody_gakpo.jpg,assets/clubes/cody_gakpo.png
+Kai Havertz,Alemania,Arsenal,11,27,Delantero,3,4,0,3,1,0,25,assets/jugadores/kai_havertz.jpg,assets/clubes/kai_havertz.png
+Raúl Jiménez,México,Fulham,11,35,Delantero,3,4,0,7,0,0,47,assets/jugadores/raul_jimenez.jpg,assets/clubes/raul_jimenez.png
+Elijah Just,Nueva Zelanda,Motherwell,11,26,Mediocampista,3,3,0,3,1,0,12,assets/jugadores/elijah_just.jpg,assets/clubes/elijah_just.png
+Romelu Lukaku,Bélgica,Fenerbahçe,11,33,Delantero,3,6,1,2,1,0,93,assets/jugadores/romelu_lukaku.jpg,assets/clubes/romelu_lukaku.png
+Johan Manzambi,Suiza,SC Freiburg,11,21,Mediocampista,3,4,2,3,0,0,6,assets/jugadores/johan_manzambi.jpg,assets/clubes/johan_manzambi.png
+Lautaro Martínez,Argentina,Inter de Milán,11,29,Delantero,3,7,,,,,40,assets/jugadores/lautaro_martinez.jpg,assets/clubes/lautaro_martinez.png
+Cristiano Ronaldo,Portugal,Al-Nassr,11,41,Delantero,3,5,0,2,0,0,146,assets/jugadores/cristiano_ronaldo.jpg,assets/clubes/cristiano_ronaldo.png
+Ismael Saibari,Marruecos,Bayern Múnich,11,25,Mediocampista,3,5,0,8,0,0,12,assets/jugadores/ismael_saibari.jpg,assets/clubes/ismael_saibari.png
+Bukayo Saka,Inglaterra,Arsenal,11,25,Delantero,3,7,3,4,0,0,17,assets/jugadores/bukayo_saka.jpg,assets/clubes/bukayo_saka.png
+Deniz Undav,Alemania,VfB Stuttgart,11,30,Delantero,3,4,2,3,0,0,9,assets/jugadores/deniz_undav.jpg,assets/clubes/deniz_undav.png
+Yoane Wissa,RD Congo,Newcastle United,11,30,Delantero,3,4,0,5,0,0,12,assets/jugadores/yoane_wissa.jpg,assets/clubes/yoane_wissa.png
+Maximiliano Araújo,Uruguay,Sporting CP,29,26,Mediocampista,2,3,1,2,0,0,5,assets/jugadores/maximiliano_araujo.jpg,assets/clubes/maximiliano_araujo.png
+Habib Diarra,Senegal,Sunderland,29,22,Mediocampista,2,3,0,2,0,0,6,assets/jugadores/habib_diarra.jpg,assets/clubes/habib_diarra.png
+Ermin Mahmić,Bosnia-Herzegovina,Slovan Liberec,29,21,Mediocampista,2,3,0,1,1,0,2,assets/jugadores/ermin_mahmic.jpg,assets/clubes/ermin_mahmic.png
+Ramin Rezaeian,Irán,Foolad,29,36,Defensa,2,3,1,2,0,0,10,assets/jugadores/ramin_rezaeian.jpg,assets/clubes/ramin_rezaeian.png
+Marko Arnautovic,Austria,Estrella Roja,29,37,Delantero,2,4,0,3,1,0,49,assets/jugadores/marko_arnautovic.jpg,assets/clubes/marko_arnautovic.png
+Yasin Ayari,Suecia,Brighton & Hove Albion,29,23,Mediocampista,2,4,0,4,1,0,5,assets/jugadores/yasin_ayari.jpg,assets/clubes/yasin_ayari.png
+Amad Diallo,Costa de Marfil,Manchester United,29,24,Delantero,2,4,0,0,0,0,8,assets/jugadores/amad_diallo.jpg,assets/clubes/amad_diallo.png
+Anthony Elanga,Suecia,Newcastle United,29,24,Delantero,2,4,0,0,0,0,8,assets/jugadores/anthony_elanga.jpg,assets/clubes/anthony_elanga.png
+Pape Gueye,Senegal,Villarreal,29,27,Mediocampista,2,4,1,4,1,0,7,assets/jugadores/pape_gueye.jpg,assets/clubes/pape_gueye.png
+Daichi Kamada,Japón,Crystal Palace,29,30,Mediocampista,2,4,0,2,1,0,14,assets/jugadores/daichi_kamada.jpg,assets/clubes/daichi_kamada.png
+Cyle Larin,Canadá,Southampton,29,31,Delantero,2,4,0,5,2,0,32,assets/jugadores/cyle_larin.jpg,assets/clubes/cyle_larin.png
+Riyad Mahrez,Argelia,Al-Ahli,29,35,Delantero,2,4,1,1,0,0,40,assets/jugadores/riyad_mahrez.jpg,assets/clubes/riyad_mahrez.png
+Nicolas Pépé,Costa de Marfil,Villarreal,29,31,Delantero,2,4,1,1,1,0,14,assets/jugadores/nicolas_pepe.jpg,assets/clubes/nicolas_pepe.png
+Crysencio Summerville,Países Bajos,West Ham United,29,25,Delantero,2,4,2,2,1,0,2,assets/jugadores/crysencio_summerville.jpg,assets/clubes/crysencio_summerville.png
+Ayase Ueda,Japón,Feyenoord,29,28,Delantero,2,4,1,6,0,0,18,assets/jugadores/ayase_ueda.jpg,assets/clubes/ayase_ueda.png
+Emam Ashour,Egipto,Al Ahly,29,28,Mediocampista,2,5,0,2,0,0,2,assets/jugadores/emam_ashour.jpg,assets/clubes/emam_ashour.png
+Daniel Muñoz,Colombia,Nottingham Forest,29,30,Defensa,2,5,0,9,0,0,5,assets/jugadores/daniel_munoz.jpg,assets/clubes/daniel_munoz.png
+Youri Tielemans,Bélgica,Manchester United,29,29,Mediocampista,2,5,0,7,0,0,15,assets/jugadores/youri_tielemans.jpg,assets/clubes/youri_tielemans.png
+Malik Tillman,Estados Unidos,Bayer Leverkusen,29,24,Mediocampista,2,5,1,3,1,0,5,assets/jugadores/malik_tillman.jpg,assets/clubes/malik_tillman.png
+Mostafa Zico,Egipto,Pyramids,29,29,Mediocampista,2,5,1,6,0,0,4,assets/jugadores/mostafa_zico.jpg,assets/clubes/mostafa_zico.png
+Breel Embolo,Suiza,Rennes,29,29,Delantero,2,6,2,9,1,1,26,assets/jugadores/breel_embolo.jpg,assets/clubes/breel_embolo.png
+Dan Ndoye,Suiza,Nottingham Forest,29,26,Delantero,2,6,0,5,0,0,10,assets/jugadores/dan_ndoye.jpg,assets/clubes/dan_ndoye.png

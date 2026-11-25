@@ -3,8 +3,8 @@ from pathlib import Path
 
 import streamlit as st
 
-from scr.estado import iniciar_estado
-from scr.estilos import EQUIPO, NOMBRE_APP, aplicar_estilos
+from src.estado import iniciar_estado
+from src.estilos import EQUIPO, NOMBRE_APP, aplicar_estilos
 
 # configuracion general de la pagina
 st.set_page_config(page_title=NOMBRE_APP, page_icon="⚽", layout="wide")
