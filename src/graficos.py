@@ -34,7 +34,7 @@ def preparar_datos(df: pd.DataFrame) -> pd.DataFrame:
     - participaciones: goles + asistencias (las asistencias sin dato cuentan como 0)."""
 
     datos = df.copy()
-    datos.insert(0, range(1, len(datos) + 1))
+    datos.insert(0, "n", range(1, len(datos) + 1))
     if "jugadores" in datos.columns:
         datos["etiqueta"] = datos["jugador"]
     else:

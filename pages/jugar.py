@@ -120,8 +120,8 @@ if not partida.respondida:
         st.rerun()
 else:
     resultado = partida.ultimo
-    if resultado["aciertos"]:
-        st.success(f"¡Correcto! Es **{resultado['correcto']}**. +{resultado['pintos']} puntos.")
+    if resultado["acierto"]:
+        st.success(f"¡Correcto! Es **{resultado['correcto']}**. +{resultado['puntos']} puntos.")
     else:
         st.error(f"Casi. Era **{resultado['correcto']}**. +0 puntos.")
 
