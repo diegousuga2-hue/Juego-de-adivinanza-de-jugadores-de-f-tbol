@@ -102,7 +102,7 @@ def figura_participaciones(df: pd.DataFrame, cantidad: int = 10) -> go.Figure:
     datos = df.sort_values(["participaciones", "goles"], ascending=False).head(cantidad).iloc[::-1]
     nombres = datos["etiqueta"] + "." + datos["posicion"]
     fig = go.Figure()
-    fig.add_trace(go.Bar(y=nombres, x=datos["goles"], name="Goles", orientacion="h",
+    fig.add_trace(go.Bar(y=nombres, x=datos["goles"], name="Goles", orientation="h",
                          marker_color=PALETA["cesped"]))
     fig.add_trace(go.Bar(y=nombres, x=datos["asistencias"].fillna(0), name="Asistencias",
                          orientation="h", marker_color=PALETA["oro"]))
