@@ -48,10 +48,10 @@ else:
     g1, g2 = st.columns(2)
     with g1:
         fig = px.line(hist, x="partida", y="puntos", markers=True,
-                      color_discrete_sequence=PALETA["cesped"])
+                      color_discrete_sequence=[PALETA["cesped"]])
         fig.update_layout(title="puntaje por partida", xaxis_title="Partida", yaxis_title="Puntos",
                           yaxis_range=[0, hist["rondas"].max() * PUNTOS_ACIERTO],
-                          xaxis=dict(dtick=1), heigth=350)
+                          xaxis=dict(dtick=1), height=350)
         st.plotly_chart(fig)
     with g2:
         fig = px.bar(hist, x="partida", y="aciertos", text="aciertos", hover_data=["pistas"],
